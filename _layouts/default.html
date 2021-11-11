@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    
+{% include head.html %}
+    <body>
+
+        <!-- preloader -->
+        <div id="preloader">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <img src="img/icon/preloader.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- preloader-end -->
+
+        <!-- header-area -->
+        {% include header.html %}
+        <!-- header-area-end -->
+        <main>
+        {{ content }}
+       </main>
+        
+        <!-- footer-area -->
+        {% include footer.html %}
+        <!-- footer-area-end -->
+
+
+{% include  js.html %}
+
+
+	</body>
+
+
+</html>
